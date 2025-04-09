@@ -1,4 +1,3 @@
-```markdown
 # FormFiller - Real Estate Data Collector
 
 ## 🎯 Project Description  
@@ -28,8 +27,8 @@ Automated solution for scraping property listings from Zillow-clone websites and
 
 ### 1. Clone Repository  
 ```bash
-git clone https://github.com/My-Py-Projects/filler-form
-cd filler-form
+git clone https://github.com/My-Py-Projects/form-filler.git
+cd form-filler
 ```
 
 ### 2. Install Dependencies  

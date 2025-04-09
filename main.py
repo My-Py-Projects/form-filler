@@ -40,7 +40,7 @@ chrome_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 driver.get(f"{forms_url}")
 
-# Fill up the forms
+# Fill up forms
 for address, price, link in zip(addresses, prices, links):
     driver.get(forms_url)
     time.sleep(2)
